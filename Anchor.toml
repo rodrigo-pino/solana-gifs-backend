@@ -1,0 +1,12 @@
+[programs.devnet]
+solanagifs = "HjW9C2WEyLUqvifzkRpefBsYNBgSuCHCyepPY5ovpKw5"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/rodro/.config/solana/id.json"
+
+[scripts]
+test = "node tests/start_test.js"
